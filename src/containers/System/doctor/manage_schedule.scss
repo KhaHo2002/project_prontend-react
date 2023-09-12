@@ -1,0 +1,42 @@
+.manage_schedule_container {
+    .title_schedule {
+        margin-top: 1%;
+        font-size: 17px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #666666;
+        text-align: center;
+    }
+
+    .option_choose {
+        margin-top: 40px;
+
+        .choose_hour {
+            margin-top: 30px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+
+            .btn-time {
+                border: 1px solid #c4c4c4;
+                gap: 10px;
+
+                &:hover {
+                    background-color: rgb(225, 225, 100);
+                }
+
+                &.active {
+                    background-color: rgb(225, 225, 100);
+                    border: 1px solid #c4c4c4;
+                    gap: 10px;
+                }
+            }
+        }
+
+        .button_add {
+            margin-top: 20px;
+
+            button {}
+        }
+    }
+}

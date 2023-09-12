@@ -1,0 +1,59 @@
+.modal_container {
+    .modal_booking {
+        height: 100%;
+
+        .modal_header {
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            align-items: center;
+            border-bottom: 1px solid;
+
+            .title {
+                font-size: 18px;
+                font-weight: bold;
+                color: #585858;
+            }
+
+            .icon {
+                i {
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .modal_body {
+            padding: 20px;
+
+            .name_doctor_price {
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid #e1e1e1;
+            }
+
+            .input_data {
+                margin-top: 10px;
+            }
+        }
+
+        .modal_footer {
+            display: flex;
+            gap: 10px;
+            float: right;
+            padding: 20px;
+
+            .add {
+                background: #4781db;
+                color: white;
+            }
+
+            .cancel {
+                background: #ff1000;
+                color: #fdfdfd;
+            }
+        }
+    }
+}

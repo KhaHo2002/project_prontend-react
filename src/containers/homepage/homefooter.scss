@@ -1,0 +1,63 @@
+
+
+    .home-footer {
+        background: #f0f0f0;
+
+        .service_location_support {
+            display: flex;
+            padding-top: 3%;
+
+            .service {
+                width: 40%;
+
+                img {
+                    width: 180px;
+                }
+
+                ul {
+                    li {
+                        display: flex;
+                        list-style-type: none;
+                        padding-top: 10px;
+                    }
+                }
+            }
+
+            .location {
+                width: 30%;
+
+                ul {
+                    li {
+                        list-style-type: none;
+                        padding-top: 10px;
+
+                        a {
+                            color: rgb(84, 142, 204);
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+            }
+
+            .support {
+                width: 30%;
+
+                .support1,
+                .support2,
+                .support3 {
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .author {
+        height: 40px;
+        background: #86ebff33;
+        text-align: center;
+
+        p {
+            padding-top: 10px;
+        }
+    }

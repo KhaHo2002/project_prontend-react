@@ -1,0 +1,87 @@
+{
+    "homeheader": {
+        "specialist": "Specialist",
+        "find_a_specialist": "Find a specialist",
+        "health_facilities": "Health facilities",
+        "choose_hospital_clinic": "Choose hospital clinic",
+        "doctor": "Doctor",
+        "choose_a_good_doctor": "Choose a good doctor",
+        "checkup_package": "Checkup package",
+        "general_health_check": "General health check",
+        "help": "Help",
+        "medical_background": "MEDICAL FLATFORM",
+        "comprehensive_health_care": "COMPREHENSIVE HEALTH CARE",
+        "search_for_a_specialty": "Search for a specialty",
+        "specialist_examination": "Specialist examination",
+        "remote_examination": "Remote examination",
+        "general_examination": "General Examination",
+        "medical_tests": "Medical Tests",
+        "mental_health": "Mental Health",
+        "surgery_package": "Surgery Package",
+        "welcome": "Welcome"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Users",
+            "manage-doctor": "Manage doctor",
+            "manage-admin": "Manage admin",
+            "crud": "CRUD User",
+            "crud-redux": "CRUD admin, doctor, user",
+            "clinic": "Clinic",
+            "dashboard":"Dashboard",
+            "manage-clinic": "Manage clinic",
+            "specialty": "Specialty",
+            "manage-specialty": "Manage specialty",
+            "handbook": "Handbook",
+            "manage-handbook": "manage handbook"
+        },
+        "doctor": {
+            "manage-schedule": "Manage doctor schedule",
+            "manage-patient": "Manage patient"
+        }
+    },
+    "manage_user": {
+        "add": "Add",
+        "edit": "Edit"
+    },
+    "homepage": {
+        "out_standing_doctor": "Last week's featured doctor",
+        "more_infor": "View more"
+    },
+    "manage_schedule": {
+        "title": "Medical Examination Plan Management",
+        "choose_a_doctor": "Choose a doctor",
+        "choose_a_day": "Choose a day",
+        "save": "Save"
+    },
+    "patient": {
+        "detail_doctor": {
+            "schedule": "Schedule",
+            "no_schedule": "There are no scheduled medical appointments during this time!",
+            "choose": "Select",
+            "book_schedule": "and book (Scheduling fee 0 VND)"
+        },
+        "extra_infor": {
+            "address_examination":"ADDRESS OF EXAMINATION",
+            "price":"PRICE",
+            "see_deital":"See details",
+            "patients_can_pay_with":"Patients can pay with",
+            "hide_list":"Hide price list"
+
+
+        }
+    },
+    "admin_doctor": {
+        "manage_doctor": "More doctor information",
+        "choose_doctor": "Choose a doctor",
+        "add_infor_description_doctor": "More doctor referral information",
+        "price": "Price of medical examination",
+        "payment": "Payment methods",
+        "choose_province": "Choose a province",
+        "clinic_name": "Clinic name",
+        "clinic_address": "Clinic address",
+        "note": "Note",
+        "choose_clinic":"Choose clinic",
+        "choose_specialty":"Choose a specialty"
+    }
+}

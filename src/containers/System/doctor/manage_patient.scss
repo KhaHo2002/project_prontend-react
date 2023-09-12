@@ -1,0 +1,20 @@
+.manage_patient {
+    margin-top: 2%;
+
+    .title {
+        font-size: 20px;
+        color: #4e4e4e;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .list_data-patient {}
+}
+
+div._loading_overlay_wrapper {
+    position: unset;
+    ._loading_overlay_overlay{
+        z-index: 100000;
+    }
+}

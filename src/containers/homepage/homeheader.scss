@@ -1,0 +1,254 @@
+$text-title: #fcfcfc;
+$text: #7a7777;
+
+
+.home-header-container {
+    height: 70px;
+    border: 1px;
+    padding: 0 20px;
+    width: 100%;
+    // position: fixed;
+    background-color: $text-title;
+
+    .home-header-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        // justify-content: sp;
+        .left_content {
+            width: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .logo {
+                background: url('../../assets/bookingcare-2020.svg') center center no-repeat;
+                height: 45%;
+                width: 44%;
+                cursor: pointer;
+            }
+
+            i {
+                font-size: 22px;
+                color: gray;
+                cursor: pointer;
+            }
+        }
+
+        .center_content {
+            width: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .child_content {
+                cursor: pointer;
+                .link {
+                    text-decoration: none;
+                    color: rgb(70, 70, 70);
+                    b {
+                        cursor: pointer;
+                    }
+
+                    .sub-title {
+                        span {
+                            font-weight: 400;
+                            color: $text;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .right_content {
+            width: 25%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .support {
+                cursor: pointer;
+
+                i {
+                    color: #7cb6e2;
+                }
+
+                .title_sup {
+                    color: $text;
+                }
+
+                .phone_number {
+                    color: #7cb6e2;
+                }
+            }
+
+            .language {
+                display: flex;
+                gap: 15px;
+
+                .language-vi {
+                    cursor: pointer;
+                    opacity: 0.3;
+
+                    img {
+                        width: 100%;
+                        height: 20px;
+                    }
+
+                    &.action {
+                        opacity: 1;
+
+                        span {
+                            color: red;
+                        }
+                    }
+                }
+
+
+                .language-en {
+
+                    cursor: pointer;
+                    opacity: 0.3;
+
+                    img {
+                        width: 100%;
+                        height: 20px;
+                    }
+
+                    &.action {
+                        opacity: 1;
+
+                        span {
+                            color: rgb(0, 255, 81);
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+.home-banner {
+    background: url(../../assets/image_banner.jpg);
+    // width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .content-up {
+        height: 75%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0.01));
+
+        .list_title {
+            padding: 7% 0;
+
+            .title1,
+            .title2 {
+                text-align: center;
+                font-size: 30px;
+                text-shadow: 1px 1px 1px #333;
+                color: $text-title;
+            }
+
+            .search {
+
+                margin: 10px auto;
+                width: 30%;
+                min-width: 300px;
+                z-index: 2;
+                min-height: 15vh;
+
+                .input_search {
+                    background: #f7d800;
+                    color: #fff;
+                    outline: none;
+                    border-radius: 25px;
+                    border: 1px solid transparent;
+                    height: 50px;
+                    padding-left: 50px;
+                    padding-right: 25px;
+                    display: flex;
+                    align-items: center;
+
+                    i {
+                        color: rgb(38, 37, 37);
+                        margin-left: -30px;
+                    }
+
+                    input {
+                        background: transparent;
+                        outline: none;
+                        border: none;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .content-dow {
+        height: 25%;
+        padding: 0 50px 0 50px;
+        align-items: flex-end;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1));
+        ;
+
+        .option {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            width: 85%;
+            margin: 0 auto;
+
+            .option_child {
+                min-width: 150px;
+                text-align: center;
+                cursor: pointer;
+
+                .icon {
+                    background: #fff;
+                    border-radius: 50%;
+                    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+                    width: 57px;
+                    height: 57px;
+                    padding: 15px;
+                    margin: 0 auto;
+                    text-align: center;
+
+                    i {
+                        font-size: 25px;
+                        color: #3981b8;
+                    }
+                }
+
+                .title_option {
+                    margin-top: 7%;
+                    font-size: 16px;
+                    font-weight: 600;
+
+                }
+
+                &:hover {
+                    color: rgb(46, 140, 184);
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 1024px) {
+    
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+
+}

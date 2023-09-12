@@ -1,0 +1,88 @@
+{
+    "homeheader": {
+        "specialist": "Chuyên khoa",
+        "find_a_specialist": "Tìm bác sĩ chuyên khoa",
+        "health_facilities": "Cơ sở y tế",
+        "choose_hospital_clinic": "Chọn bệnh viện phòng khám",
+        "doctor": "Bác sĩ",
+        "choose_a_good_doctor": "Chọn bác sĩ giỏi",
+        "checkup_package": "Gói khám",
+        "general_health_check": "Khám sức khỏa tổng quát",
+        "help": "Hỗ trợ",
+        "medical_background": "NỀN TẢNG Y TẾ",
+        "comprehensive_health_care": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "search_for_a_specialty": "Tìm kiếm chuyên khoa",
+        "specialist_examination": "Khám Chuyên Khoa",
+        "remote_examination": "Khám Từ xa",
+        "general_examination": "Khám Tổng Quát",
+        "medical_tests": "Xét Nghiệm Y Học",
+        "mental_health": "Sức Khỏe Tinh Thần",
+        "surgery_package": "Gói Phẫu Thuật",
+        "welcome": "Xin chào"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Người dùng",
+            "manage-doctor": "Quản lý bác sĩ",
+            "manage-admin": "Quản lý admin",
+            "crud": "CRUD người dùng",
+            "crud-redux": "CRUD admin, bác sĩ, người dùng",
+            "clinic": "Phòng khám",
+            "dashboard":"Tổng thể",
+            "manage-clinic": "Quản lý phòng khám",
+            "specialty": "Chuyên khoa",
+            "manage-specialty": "Quản lý chuyên khoa",
+            "handbook": "Cẩm nang",
+            "manage-handbook": "Quản lý cẩm nang"
+        },
+        "doctor": {
+            "manage-schedule": "Quản lý kế hoạch khám bệnh",
+            "manage-patient": "Quản lý bệnh nhân"
+        }
+    },
+    "manage_user": {
+        "add": "Thêm mới",
+        "edit": "Sửa thông tin"
+    },
+    "homepage": {
+        "out_standing_doctor": "Bác sĩ nổi bậc tuần qua",
+        "more_infor": "Xem thêm"
+    },
+    "manage_schedule": {
+        "title": "Quản lý kế hoach khám bệnh",
+        "choose_a_doctor": "Chọn bác sĩ",
+        "choose_a_day": "Chọn ngày",
+        "save": "Lưu"
+    },
+    "patient": {
+        "detail_doctor": {
+            "schedule": "Lịch khám",
+            "no_schedule": "Chưa có lịch hẹn khám bệnh trong khoảng thời gian này!",
+            "choose": "Chọn",
+            "book_schedule": "và đặt (Phí đặt lịch 0đ)"
+        },
+        "extra_infor":{
+            "address_examination":"ĐỊA CHỈ KHÁM",
+            "price":"Giá",
+            "see_deital":"Xem chi tiết",
+            "patients_can_pay_with":"Người bệnh có thể thanh toán bằng",
+            "hide_list":"Ẩn bản giá"
+        },
+        "booking_modal":{
+            
+        }
+    },
+    "admin_doctor": {
+        "manage_doctor": "Thêm thông tin bác sĩ",
+        "choose_doctor": "Chọn bác sĩ",
+        "add_infor_description_doctor": "Thêm thông tin giới thiệu bác sĩ",
+        "price": "Giá khám bệnh",
+        "payment": "Phương thức thanh toán",
+        "choose_province": "Chọn tỉnh thành",
+        "clinic_name": "Tên phòng khám",
+        "clinic_address": "Địa chỉ phòng khám",
+        "note": "Ghi chú",
+        "choose_clinic":"Chọn phòng khám",
+        "choose_specialty":"Chọn chuyên khoa"
+    }
+}

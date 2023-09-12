@@ -1,0 +1,181 @@
+// .footer {
+//     bottom: 0;
+//     position: fixed;
+//     width: 100%;
+//     z-index: 1000;
+// }
+
+
+.specialty_detail {
+
+    .des_specialty {
+        .not_data {
+            font-size: 20px;
+            font-weight: 600;
+            color: rgb(103, 103, 103);
+            text-align: center;
+        }
+    }
+
+    .infor_schedule-doctor {
+        background-color: #f1f1f1;
+        padding-top: 1%;
+        padding-bottom: 2%;
+
+        .select_choose_provice {
+            select {
+                width: 170px;
+                padding: 5px;
+                height: 30px;
+                font-weight: bold;
+                color: #555555;
+                border: 1px solid #bcbcbc;
+
+                option {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .item {
+            display: flex;
+            width: 100%;
+            border: 1px solid #e5e5e5;
+            margin-top: 1%;
+            background-color: #fff;
+            box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+            border-radius: 5px;
+
+            .infor_doctor {
+                width: 50%;
+                padding: 2%;
+            }
+
+            .schedule-doctor {
+                width: 50%;
+                height: 100%;
+                margin-top: 1%;
+                margin-bottom: 1%;
+                padding: 2%;
+                border-left: 1px solid #e8e8e8;
+
+                .scheule-doctor-left {
+                    width: 100%;
+                }
+
+                .schedule-doctor-right {
+                    margin-top: 5%;
+
+                    .doctor_extra_infor {
+                        padding-left: 0px;
+
+                        .doctor_extra_infor-up {
+                            padding-bottom: 10px;
+
+                            .address {
+                                text-transform: uppercase;
+                                font-size: 14px;
+                                color: #666;
+                                font-weight: bold;
+                            }
+
+                            .name_clinic {
+                                font-weight: bold;
+                                font-size: 14px;
+                            }
+
+                            .location {
+                                font-size: 14px;
+                                padding: 3px 0;
+                            }
+                        }
+
+                        .doctor_extra_infor-down {
+                            padding-top: 10px;
+                            border-top: 1px solid #eee;
+
+                            .title {
+                                text-transform: uppercase;
+                                font-size: 14px;
+                                color: #666;
+                                font-weight: bold;
+                            }
+
+                            .price {
+                                font-size: 14px;
+                            }
+
+                            .show {
+                                cursor: pointer;
+                                color: #39cfe2;
+                            }
+
+                            .show_data {
+                                border: 1px solid #d8d8d8;
+
+                                .price_show {
+                                    padding: 5px 4px 0px 4px;
+                                    background: #f7f7f7;
+                                    display: flex;
+                                    justify-content: space-between;
+
+                                    .title_price {
+                                        font-size: 14px;
+                                        color: #666;
+                                        font-weight: bold;
+                                    }
+                                }
+
+                                .discription {
+                                    font-size: 15px;
+                                    background: #f7f7f7;
+                                    padding: 10px 4px 10px 4px;
+                                    border-top: 1px solid #d8d8d8;
+                                    border-bottom: 1px solid #d8d8d8;
+                                }
+
+                                .method_pay {
+                                    font-size: 15px;
+                                    background: #ededed;
+                                    padding: 10px 4px 10px 4px;
+                                }
+
+                            }
+
+                            .hide {
+                                padding-top: 10px;
+                                cursor: pointer;
+                                color: #39cfe2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .not_data {
+            font-size: 20px;
+            font-weight: 600;
+            color: rgb(103, 103, 103);
+            text-align: center;
+        }
+    }
+}
+
+.question {
+    background-color: #006e6f;
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+    span {
+        font-size: 15px;
+        color: #e5e5e5;
+
+        .view_question {
+            color: #FFF04B;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+}

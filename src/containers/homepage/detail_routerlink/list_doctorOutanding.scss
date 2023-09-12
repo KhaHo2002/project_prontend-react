@@ -1,0 +1,41 @@
+.list_doctor-outanding {
+    h4{
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    .item {
+
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #dcdbdb;
+        padding: 20px 0px 20px 0px;
+
+        .image {
+            background-size: cover;
+            background-position: center center !important;
+            background-repeat: no-repeat !important;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+
+        .des {
+            line-height: 0.5;
+            margin-left: 12px;
+            cursor: pointer;
+            .link{
+                text-decoration: none;
+                .name_doctor {
+                    font-size: 15px;
+                    color: #676767;
+                }
+    
+                .degree {
+                    font-size: 13px;
+                    color: #949494;
+                }
+            }
+        }
+
+    }
+}

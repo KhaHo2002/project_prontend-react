@@ -1,0 +1,61 @@
+.doctor_schedule {
+    .all_schedule {
+        select {
+            border: none;
+            border-bottom: 1px solid #c8c8c8;
+            color: #337ab7;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            padding-bottom: 5px;
+        }
+    }
+
+    .all-time {
+        .text-calendar {
+            span {
+                font-size: 15px;
+                font-weight: bold;
+                text-transform: uppercase;
+                color: #3c3c3c;
+            }
+        }
+
+        .list-calendar {
+            .book_schedule {
+                margin-top: 3%;
+
+                span {
+                    font-style: italic;
+                    color: #555555;
+                }
+            }
+
+            .item-calendar {
+                display: flex;
+                gap: 10px;
+                flex-wrap: wrap;
+                margin-top: 2%;
+
+                button {
+                    padding: 7px;
+                    border: 2px solid #e4e4e4;
+                    background-color: #fff8ae;
+                    min-width: 22%;
+                    font-size: 14px;
+
+                    &:hover {
+                        border: 2px solid #49a2de;
+                    }
+                }
+            }
+
+            .no-calendar {
+                font-size: 19px;
+                font-weight: bold;
+                color: #5e5b5b;
+                font-style: italic;
+            }
+        }
+    }
+}

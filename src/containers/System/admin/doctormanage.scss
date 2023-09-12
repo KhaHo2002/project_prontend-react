@@ -1,0 +1,27 @@
+.manage_doctor-container{
+    padding: 5px;
+    .manage_doctor-title{
+        font-size: 40px;
+        text-align: center;
+    }
+    .mor-infor{
+        text-align: center;
+        display: flex;
+        .choose_doctor{
+            width: 20%;
+            margin-right: 10px;
+        }
+        .description{
+            width: 80%;
+            .form-control{
+                // width: 1000px;
+                // height: 200px;
+                display: inline !important;
+            }
+        }
+        
+    }
+    .infor_extra{
+        display: flexbox;
+    }
+}

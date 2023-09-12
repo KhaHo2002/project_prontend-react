@@ -1,0 +1,60 @@
+.intro-doctor {
+    display: flex;
+    align-items: center;
+
+    .left {
+        .image-doctor {
+            background-size: cover;
+            background-position: center center !important;
+            background-repeat: no-repeat !important;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 5px;
+
+        }
+
+        .view_detail {
+            font-size: 14px;
+            color: #3fa8e1;
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+    }
+
+    .right {
+
+        .infor {
+            padding: 0px 15px 0px 5px;
+
+            .name-doctor {
+                font-size: 15px;
+                font-weight: bold;
+
+            }
+
+            .time_date {
+                .time {
+                    color: #4c69ff;
+                }
+            }
+
+            .free_book {
+                color: #079900;
+            }
+
+            .price {
+                font-size: 15px;
+
+                span {
+                    color: #e16868;
+                    font-weight: bold;
+                }
+            }
+        }
+
+
+
+    }
+}
