@@ -35,5 +35,21 @@ const upCloundImageHandbook = (data) => {
     }
 }
 
-export { createHandbook, getAllHandbook, getDetailHandbook, upCloundImageHandbook };
+const editHandbook = (data) => {
+    try {
+        return axios.put(`/api/edit-handbook-by-id`, data);
+    } catch (error) {
+        throw error;
+    }
+}
+
+const deleteHandbook = (id) => {
+    try {
+        return axios.delete(`/api/delete-handbook-by-id`, { data: {id} });
+    } catch (error) {
+        throw error;
+    }
+}
+
+export { createHandbook, getAllHandbook, getDetailHandbook, upCloundImageHandbook, editHandbook, deleteHandbook };
 
