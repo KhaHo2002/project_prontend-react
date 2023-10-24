@@ -133,7 +133,9 @@ class UserRedux extends Component {
         let { action } = this.state;
         let { id, email, password, firstName, lastName, phonenumber, address, gender, roleid, positionid, image, imageCloud,
             imageCloudId } = this.state;
-
+            // console.log(this.state);
+            // // console.log(positionid);
+            //     return;
         let dataImageUpCloud = await upLoadCloundImageUser({ data: image });
         if (dataImageUpCloud) {
             if (action === CRUD_ACTION.CREATE) {
